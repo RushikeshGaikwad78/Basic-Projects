@@ -1,0 +1,32 @@
+.img-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden; /* Optional: Hide any overflow if the image exceeds the container size */
+  }
+  
+.player
+{
+    border-radius: 10px;
+    /* display: flex; */
+    margin: 5px;
+    padding: 5px;
+}
+.score
+{
+  display: flex;
+  align-items: center;
+  
+}
+header{
+  margin: 10px;
+}
+
+.scorekeeper{
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rushi's Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      color: white;
+      background: url(bg.jpg);
+      height: 1250px;
+      font-family: "Quicksand", sans-serif !important;
+    }
+
+    .left {
+      /* border: 2px solid red; */
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 10px;
+      text-align: center;
+      width: 100px;
+      align-content: center;
+      font-size: small;
+      align-items: center;
+      margin: 2px 2px 2px 2px;
+      text-decoration: solid;
+    }
+
+    .mid {
+      /* border: 2px solid green; */
+      display: block;
+      width: 50%;
+      margin: auto;
+      position: relative;
+      top: -3px;
+    }
+
+    .right {
+      /* border: 2px solid yellow; */
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      margin: 2px 18px 2px 5px;
+      width: fit-content;
+      color: white;
+    }
+
+    .navbar li {
+      display: inline-block;
+    }
+
+    .navbar li a:hover {
+      color: yellow;
+      text-shadow: 2px;
+    }
+
+    .left img {
+      width: 50px;
+      height: 50px;
+      display: block;
+      border-radius: 50%;
+      margin: 2px 2px 2px 25px;
+    }
+
+    .btn {
+      margin: 2px 2px;
+      padding: 2px 2px 2px 2px;
+      background-color: #131212;
+      border: 2px solid rebeccapurple;
+      border-radius: 10px;
+      color: white;
+      font-family: "Quicksand", sans-serif !important;
+    }
+
+    .btn:hover {
+      color: bisque;
+      text-decoration: underline;
+      background-color: gray;
+    }
+
+    .container {
+      border: 2px solid #f0f3ed;
+      margin: 63px 73px;
+      padding: 4px 10px;
+      width: 33%;
+      border-radius: 10px;
+    }
+
+    .formgroup input {
+      margin: 11px 50px 7px 70px;
+      border: 2px solid black;
+      padding: 6px;
+      text-align: center;
+      font-family: "Quicksand", sans-serif !important;
+    }
+
+    .container h1 {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .container .btn {
+      display: block;
+      width: 55px;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="logo.jpg" alt="" />
+        Rushi's Fitness
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Join the best gym in Pune now!!!</h1>
+      <form action="noaction.php"></form>
+      <div class="formgroup">
+        <input type="text" placeholder="Enter your Name" />
+      </div>
+      <div class="formgroup">
+        <input type="text" placeholder="Enter your Email" />
+      </div>
+      <div class="formgroup">
+        <input type="text" placeholder="Enter your Mobile No." />
+      </div>
+      <div class="formgroup">
+        <input type="text" placeholder="Enter your Age" />
+      </div>
+      <button class="btn">Submit</button>
+    </div>
+  </body>
+</html>

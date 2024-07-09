@@ -1,0 +1,57 @@
+*
+{
+    /* background: #dfc7fc; */
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-item
+{
+    /* border: 1px solid black; */
+}
+.nav-item :hover
+{
+   transform: scale(1.05);
+   background: #dabaff;
+   border-radius: 25%;
+}
+
+
+.navbar1 .navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    /* border: 2px solid black; */
+    /* background-color: #8b45e0 !important; */
+    background-color: #dcc2f9 !important;
+    height: 45px;
+    width: 100%;
+    
+}
+.navbar1
+{
+    background-color: #dcc2f9 !important;
+    height: 60px;
+    /* justify-content: flex-end; */
+    /* background: #7c7777; */
+}
+.navbar .d-flex{
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    
+
+}
+
+header .container-fluid .card
+{
+    /* background: $indigo-200; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: auto;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    background: #dcc2f9;
+
+}

@@ -1,0 +1,31 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab&display=swap');
+
+  /* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+
+.logo
+{
+    width:60px;
+    height: 60px; ;
+
+}
+
+.navbar
+{
+    height: 60px;
+    background-color: #9ffda6 !important;
+    box-shadow: 2px black;
+  font-family: 'Nunito', sans-serif;
+
+   
+}
+
+.shadow-box {
+    /* width: 200px;
+    height: 200px; */
+    background-color: #fff; /* Set your desired background color */
+    border-radius: 10px;   /* Optional: adds rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+  }
+  
